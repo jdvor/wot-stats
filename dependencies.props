@@ -1,0 +1,25 @@
+<Project>
+
+  <PropertyGroup>
+    <!-- Runtime dependecies -->
+    <MicrosoftExtensionsVersion>5.0.2</MicrosoftExtensionsVersion>
+    <MicrosoftExtensionsConfigurationBinder>5.0.0</MicrosoftExtensionsConfigurationBinder>
+    <AzureMessagingServiceBus>7.1.0</AzureMessagingServiceBus>
+    <AzureCosmosTable>1.0.8</AzureCosmosTable>
+    <SpectreConsoleVersion>0.41.0</SpectreConsoleVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- Code analysis (compile time only) -->
+    <StyleCopAnalyzersVersion>1.1.118</StyleCopAnalyzersVersion>
+
+    <!-- Tests -->
+    <MoqVersion>4.16.1</MoqVersion>
+    <CompareNETObjectsVersion>4.73.0</CompareNETObjectsVersion>
+    <TestSdkVersion>16.11.0</TestSdkVersion>
+    <XunitVersion>2.4.1</XunitVersion>
+    <XunitRunnerVersion>2.4.3</XunitRunnerVersion>
+    <CoverletCollector>3.1.0</CoverletCollector>
+  </PropertyGroup>
+
+</Project>

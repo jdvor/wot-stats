@@ -1,0 +1,23 @@
+<Project>
+
+  <Import Project="..\shared.props" />
+  <Import Project="..\dependencies.props" />
+
+  <PropertyGroup>
+    <PackageProjectUrl>https://git.nanox.cz/it/des/dflex-rdg/blob/master/README.md</PackageProjectUrl>
+    <RepositoryUrl>https://git.nanox.cz/it/des/dflex-rdg</RepositoryUrl>
+    <PackageTags>des, rdg</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright (c) 2020 Nano Energies, s.r.o.</Copyright>
+    <Authors>Digital Energy Services</Authors>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="$(StyleCopAnalyzersVersion)" PrivateAssets="all"/>
+  </ItemGroup>
+
+</Project>

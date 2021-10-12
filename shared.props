@@ -1,0 +1,14 @@
+<Project>
+
+  <PropertyGroup>
+    <Version Condition="'$(Version)'==''">1.0.0</Version>
+    <AssemblyVersion>$(Version)</AssemblyVersion>
+    <FileVersion>$(Version)</FileVersion>
+    <LangVersion>latest</LangVersion>
+    <PlatformTarget>x64</PlatformTarget>
+    <Nullable>enable</Nullable>
+    <LibTargetFramework>net5.0</LibTargetFramework>
+    <AppTargetFramework>net5.0</AppTargetFramework>
+  </PropertyGroup>
+
+</Project>

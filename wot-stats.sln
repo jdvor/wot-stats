@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{85EC774F-D100-41FD-8767-151E10824D54}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.globalconfig = .globalconfig
+		dependencies.props = dependencies.props
+		README.md = README.md
+		shared.props = shared.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0D517041-0637-45EB-A016-566C6B8F30E8}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{84EDEFAB-B2E4-4529-98D0-C20623EEDAB2}"
+	ProjectSection(SolutionItems) = preProject
+		test\Directory.Build.props = test\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WotStats.Core", "src\WotStats.Core\WotStats.Core.csproj", "{31DFC915-1FE2-4490-94F9-89A266E58EF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0D109C7E-B8BF-4ABD-AC0B-31CDC662184C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WotStats.Interfaces", "src\WotStats.Interfaces\WotStats.Interfaces.csproj", "{B676065B-D7E4-44BA-A1DD-C4234ADBCBFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WotStats.Console", "src\WotStats.Console\WotStats.Console.csproj", "{BFAFF674-C90B-4404-AA8E-270E219F25D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WotStats.Core.Tests", "test\WotStats.Core.Tests\WotStats.Core.Tests.csproj", "{9AEE3EF3-E81B-4D14-ACAC-67D0853EEDCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31DFC915-1FE2-4490-94F9-89A266E58EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DFC915-1FE2-4490-94F9-89A266E58EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DFC915-1FE2-4490-94F9-89A266E58EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DFC915-1FE2-4490-94F9-89A266E58EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B676065B-D7E4-44BA-A1DD-C4234ADBCBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B676065B-D7E4-44BA-A1DD-C4234ADBCBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B676065B-D7E4-44BA-A1DD-C4234ADBCBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B676065B-D7E4-44BA-A1DD-C4234ADBCBFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFAFF674-C90B-4404-AA8E-270E219F25D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAFF674-C90B-4404-AA8E-270E219F25D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAFF674-C90B-4404-AA8E-270E219F25D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAFF674-C90B-4404-AA8E-270E219F25D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AEE3EF3-E81B-4D14-ACAC-67D0853EEDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AEE3EF3-E81B-4D14-ACAC-67D0853EEDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AEE3EF3-E81B-4D14-ACAC-67D0853EEDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AEE3EF3-E81B-4D14-ACAC-67D0853EEDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D517041-0637-45EB-A016-566C6B8F30E8} = {85EC774F-D100-41FD-8767-151E10824D54}
+		{84EDEFAB-B2E4-4529-98D0-C20623EEDAB2} = {85EC774F-D100-41FD-8767-151E10824D54}
+		{9AEE3EF3-E81B-4D14-ACAC-67D0853EEDCA} = {0D109C7E-B8BF-4ABD-AC0B-31CDC662184C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCAAFF01-AC7B-44DC-AE84-4A690AA97AEC}
+	EndGlobalSection
+EndGlobal
